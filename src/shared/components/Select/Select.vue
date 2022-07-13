@@ -18,7 +18,7 @@
           {{ option.name }}
         </option>
       </select>
-      <p class="select-error-message font-xs">{{ errorMsg }}</p>
+      <p class="select_error_message font-xs">{{ errorMsg }}</p>
     </div>
   </div>
 </template>

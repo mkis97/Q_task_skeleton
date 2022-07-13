@@ -1,6 +1,6 @@
 <template>
   <button
-    class="action-button"
+    class="action_button"
     :class="fullWidth ? 'fullwidth' : ''"
     @click.stop="action"
   >

@@ -1,6 +1,6 @@
 <template>
-  <div class="posts-page-container">
-    <div class="posts-page-actions-container">
+  <div class="posts_page_container">
+    <div class="posts_page_actions_container">
       <Select
         v-model="localParams._sort"
         :options="sortOptions"
@@ -29,7 +29,7 @@
     </div>
 
     <template v-if="isHydrated">
-      <div v-if="posts.length" class="posts-pages-content">
+      <div v-if="posts.length" class="posts_pages_content">
         <template v-for="post in posts">
           <post-item
             :key="post.id"
@@ -39,7 +39,7 @@
           />
         </template>
       </div>
-      <div v-else class="posts-page-no-content">
+      <div v-else class="posts_page_no_content">
         <span class="font-2xl">{{ $t("POSTS_PAGE.NO_DATA") }}.</span>
       </div>
 
