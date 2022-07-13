@@ -19,6 +19,14 @@ export default {
     currentLocale() {
       return localStorage.getItem("locale");
     },
+
+    favouritesNavigation() {
+      return ROUTES.FAVOURITES.NAME;
+    },
+
+    postsNavigation() {
+      return ROUTES.POSTS.NAME;
+    },
   },
 
   methods: {
@@ -34,11 +42,15 @@ export default {
     },
 
     async openFavourites() {
-      await router.push({ name: ROUTES.FAVOURITES.NAME });
+      if (this.$route.name !== ROUTES.FAVOURITES.NAME) {
+        await router.push({ name: ROUTES.FAVOURITES.NAME });
+      }
     },
 
     async openPosts() {
-      await router.push({ name: ROUTES.POSTS.NAME });
+      if (this.$route.name !== ROUTES.POSTS.NAME) {
+        await router.push({ name: ROUTES.POSTS.NAME });
+      }
     },
   },
 

@@ -1,7 +1,7 @@
 <template>
   <button
     class="action-button"
-    :class="fullWidth ? 'fullwidth' : 'padding'"
+    :class="fullWidth ? 'fullwidth' : ''"
     @click.stop="action"
   >
     <span>{{ value }}</span>
