@@ -13,10 +13,6 @@
           :to="{ name: favouritesNavigation }"
           >{{ $t("APP.FAVOURITES") }}</router-link
         >
-        <!--        <span class="clickable" @click="openPosts">{{ $t("APP.POSTS") }}</span>-->
-        <!--        <span class="clickable" @click="openFavourites">{{-->
-        <!--          $t("APP.FAVOURITES")-->
-        <!--        }}</span>-->
         <Button
           :value="$t('APP.LOG_OUT')"
           @clicked="logOut"
@@ -41,7 +37,12 @@
           >HR</span
         >
       </div>
+      <div id="help_button" v-if="isPostsPage" @click="startTour">
+        <span> ? </span>
+      </div>
     </div>
+
+    <v-tour name="help" :steps="steps"></v-tour>
   </div>
 </template>
 

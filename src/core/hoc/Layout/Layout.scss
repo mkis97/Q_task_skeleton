@@ -32,7 +32,8 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  background-color: $eucalyptus;
+  background-color: $disco;
+  color: darkgrey;
   height: 64px;
   width: 64px;
   border-radius: 50%;
@@ -78,4 +79,24 @@
 .router-link-active{
   color: white;
   font-weight: bold;
+}
+
+#help_button{
+  z-index: 9999;
+  position: fixed;
+  left: 16px;
+  bottom: 32px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: $disco;
+  color: white;
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  gap: 4px;
+  cursor: pointer;
+  -webkit-box-shadow: 5px 5px 15px 5px rgba(125,125,125,0.5);
+  box-shadow: 5px 5px 15px 5px rgba(125,125,125,0.5);
 }

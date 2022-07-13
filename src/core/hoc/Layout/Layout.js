@@ -3,6 +3,7 @@ import { ROUTES } from "@/core/types/routes";
 import { router } from "@/core/router";
 import { loadLocaleAsync } from "@/core/i18n";
 import { i18n } from "@/core/i18n";
+import { steps } from "@/core/tours/help";
 
 export default {
   name: "Layout",
@@ -12,6 +13,8 @@ export default {
   data() {
     return {
       i18n,
+
+      steps,
     };
   },
 
@@ -26,6 +29,10 @@ export default {
 
     postsNavigation() {
       return ROUTES.POSTS.NAME;
+    },
+
+    isPostsPage() {
+      return this.$route.name === ROUTES.POSTS.NAME;
     },
   },
 
@@ -52,7 +59,16 @@ export default {
         await router.push({ name: ROUTES.POSTS.NAME });
       }
     },
+
+    startTour() {
+      this.$tours["help"].start();
+    },
   },
 
-  mounted() {},
+  mounted() {
+    if (!localStorage.getItem("isTourSeen")) {
+      this.startTour();
+      localStorage.setItem("isTourSeen", "true");
+    }
+  },
 };

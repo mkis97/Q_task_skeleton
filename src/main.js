@@ -16,6 +16,9 @@ import capitalize from "@/shared/filters/capitalize";
 import { LMap, LTileLayer, LMarker } from "vue2-leaflet";
 import "leaflet/dist/leaflet.css";
 import { Icon } from "leaflet";
+import VueTour from "vue-tour";
+
+require("vue-tour/dist/vue-tour.css");
 
 delete Icon.Default.prototype._getIconUrl;
 Icon.Default.mergeOptions({
@@ -26,7 +29,7 @@ Icon.Default.mergeOptions({
 
 Vue.config.productionTip = false;
 
-Vue.use(VueToast, { position: "bottom" }).use(Vuelidate);
+Vue.use(VueToast, { position: "bottom" }).use(Vuelidate).use(VueTour);
 
 library.add(faChevronDown);
 library.add(faHeart);
