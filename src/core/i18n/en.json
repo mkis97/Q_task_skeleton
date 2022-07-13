@@ -1,0 +1,32 @@
+{
+  "LOGIN": {
+    "FORM_ACTION": "Login",
+    "USERNAME": "Username",
+    "PASSWORD": "Password"
+  },
+  "APP": {
+    "SIMPLE_APP": "Simple app",
+    "LOG_OUT": "Log out",
+    "FAVOURITES": "Favourites",
+    "POSTS": "Posts"
+  },
+  "POSTS_PAGE": {
+    "SORT_BY": "Sort by",
+    "ORDER": "Order",
+    "USER": "User",
+    "SEARCH": "Search",
+    "COMMENTS": "Comments",
+    "BY": "By",
+    "NO_DATA": "No items"
+  },
+  "USER_PROFILE_PAGE": {
+    "USER_INFO": "User info",
+    "NAME": "Name",
+    "USERNAME": "Username",
+    "EMAIL": "Email",
+    "PHONE": "Phone",
+    "WEBSITE": "Website",
+    "ADDRESS": "Address",
+    "COMPANY": "Company"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "LOGIN": {
+    "FORM_ACTION": "Prijava",
+    "USERNAME": "Korisnicko ime",
+    "PASSWORD": "Zaporka"
+  },
+  "APP": {
+    "SIMPLE_APP": "Jednostavna aplikacija",
+    "LOG_OUT": "Odjava",
+    "FAVOURITES": "Favoriti",
+    "POSTS": "Postovi"
+  },
+  "POSTS_PAGE": {
+    "SORT_BY": "Poredaj po",
+    "ORDER": "Poredak",
+    "USER": "Korisnik",
+    "SEARCH": "Pretraga",
+    "COMMENTS": "Komentari",
+    "BY": "Postavio/la",
+    "NO_DATA": "Nema podataka"
+  },
+  "USER_PROFILE_PAGE": {
+    "USER_INFO": "Informacije o korisniku",
+    "NAME": "Ime",
+    "USERNAME": "Korisnicko ime",
+    "EMAIL": "Email",
+    "PHONE": "Telefon",
+    "WEBSITE": "Web",
+    "ADDRESS": "Adresa",
+    "COMPANY": "Tvrtka"
+  }
+}

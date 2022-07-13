@@ -10,20 +10,13 @@ npm install
 npm run serve
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
 ### Run your unit tests
 ```
 npm run test:unit
 ```
 
-### Lints and fixes files
+### Login data
 ```
-npm run lint
+Username: Bret
+Password: 12345
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).

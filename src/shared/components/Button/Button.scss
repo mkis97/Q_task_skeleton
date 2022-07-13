@@ -1,0 +1,22 @@
+.action-button {
+  background-color: $shamrock; /* Green */
+  border: 1px solid white;
+  border-radius: 8px;
+  padding: 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+
+  & span {
+    white-space: nowrap;
+    color: white;
+  }
+}
+
+.fullwidth {
+  width: 100%;
+}
+
+.padding {
+  padding: 0 12px;
+}

@@ -1,0 +1,37 @@
+#login_container{
+  max-width: 500px;
+  background-color: white;
+  border-radius: 8px;
+  border: 1px solid black;
+  padding: 0 12px 16px 12px;
+  flex-shrink: 0;
+  flex-grow: 1;
+}
+
+#login_title{
+  font-weight: bolder;
+  color: $eucalyptus;
+  text-align: center;
+}
+
+.pulse{
+  animation: pulseAnimation 2s infinite;
+}
+
+@keyframes pulseAnimation {
+  0%{
+    box-shadow: 0 0 15px 0 $eucalyptus;
+  }
+  25%{
+    box-shadow: 0 0 20px 5px $eucalyptus;
+  }
+  50%{
+    box-shadow: 0 0 30px 10px $eucalyptus;
+  }
+  75%{
+    box-shadow: 0 0 20px 5px $eucalyptus;
+  }
+  100%{
+    box-shadow: 0 0 10px 0 $eucalyptus;
+  }
+}

@@ -1,0 +1,58 @@
+.comment_container{
+  border: 1px solid black;
+  border-radius: 8px;
+  padding: 16px;
+  margin-top: 4px;
+  position: relative;
+  cursor: default;
+}
+
+.comment_creator{
+  text-align: left;
+  font-weight: bold;
+  padding-right: 16px;
+}
+
+.comment_body{
+  text-align: left;
+}
+
+.comment_link{
+  font-style: italic;
+}
+
+.show_more_icon{
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  cursor: pointer;
+}
+
+.rotatedIcon{
+  transform: rotate(180deg);
+}
+
+.grow-out-enter-active {
+  animation: growOut 200ms ease-in-out forwards;
+  transform-origin: top center;
+}
+.grow-out-leave-active {
+  animation: growIn 200ms ease-in-out forwards;
+  transform-origin: top center;
+}
+@keyframes growOut {
+  0% {
+    transform: rotateX(-90deg);
+  }
+  100% {
+    transform: rotateX(0deg);
+  }
+}
+@keyframes growIn {
+  0% {
+    transform: rotateX(0deg);
+  }
+  100% {
+    transform: rotateX(-90deg);
+  }
+}

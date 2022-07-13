@@ -1,0 +1,46 @@
+.post_container {
+  position: relative;
+  border: 1px solid gray;
+  padding: 24px 16px 24px 24px;
+  border-radius: 8px;
+  background-color: white;
+  max-width: 750px;
+}
+
+.post_heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.post_container_clickable {
+  cursor: pointer;
+}
+
+.post_container_default {
+  cursor: default;
+}
+
+.post_acronym {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.post_title {
+  font-weight: bold;
+  color: $eucalyptus;
+  margin-top: 20px;
+}
+
+.post_body {
+  margin-top: 12px;
+}
+
+.clickable {
+  cursor: pointer;
+}
