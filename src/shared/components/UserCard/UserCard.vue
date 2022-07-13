@@ -1,6 +1,6 @@
 <template>
   <div id="user_profile_card">
-    <h2>{{ $t("USER_PROFILE_PAGE.USER_INFO") }}</h2>
+    <h2 id="card_title">{{ $t("USER_PROFILE_PAGE.USER_INFO") }}</h2>
     <p>
       <b>{{ $t("USER_PROFILE_PAGE.NAME") }}:</b> {{ user.name }}
     </p>
