@@ -25,6 +25,18 @@
     <p v-if="user.company">
       <b>{{ $t("USER_PROFILE_PAGE.COMPANY") }}:</b> {{ user.company.name }}
     </p>
+
+    <l-map
+      style="height: 300px"
+      :zoom="zoom"
+      :center="[user.address.geo.lat, user.address.geo.lng]"
+      v-if="user && user.address && user.address.geo"
+    >
+      <l-tile-layer :url="url" :attribution="attribution"></l-tile-layer>
+      <l-marker
+        :lat-lng="[user.address.geo.lat, user.address.geo.lng]"
+      ></l-marker>
+    </l-map>
   </div>
 </template>
 
