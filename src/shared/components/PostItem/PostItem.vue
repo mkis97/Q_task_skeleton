@@ -12,7 +12,8 @@
       <font-awesome-icon
         class="clickable"
         icon="fa-solid fa-heart"
-        :style="{ color: isPostLiked ? 'red' : 'grey' }"
+        size="lg"
+        :class="isPostLiked ? 'liked' : 'default'"
         @click.stop="toggleLike"
       />
     </div>
