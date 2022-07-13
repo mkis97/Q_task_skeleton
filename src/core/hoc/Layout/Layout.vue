@@ -42,7 +42,11 @@
       </div>
     </div>
 
-    <v-tour name="help" :steps="steps"></v-tour>
+    <v-tour
+      name="help"
+      :steps="steps"
+      :options="{ labels: tourButtonLabels }"
+    ></v-tour>
   </div>
 </template>
 

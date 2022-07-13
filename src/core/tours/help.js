@@ -1,17 +1,19 @@
+import { i18n } from "@/core/i18n";
+
 const steps = [
   {
     target: "#app_bar",
     header: {
-      title: "Welcome",
+      title: i18n.t("HELP.STEP_1.TITLE"),
     },
-    content: `This is a short tour through <strong>Simple App</strong>!`,
+    content: i18n.t("HELP.STEP_1.BODY"),
   },
   {
     target: "#help_button",
     header: {
-      title: "Help",
+      title: i18n.t("HELP.STEP_2.TITLE"),
     },
-    content: "You can start this tour at any time.",
+    content: i18n.t("HELP.STEP_2.BODY"),
     params: {
       placement: "bottom",
     },
@@ -20,16 +22,16 @@ const steps = [
   {
     target: "#log_out_button",
     header: {
-      title: "Log out",
+      title: i18n.t("HELP.STEP_3.TITLE"),
     },
-    content: "You can log out here",
+    content: i18n.t("HELP.STEP_3.BODY"),
   },
   {
     target: ".navigation_router",
     header: {
-      title: "Navigation",
+      title: i18n.t("HELP.STEP_4.TITLE"),
     },
-    content: "By clicking on this items, you can navigate through application",
+    content: i18n.t("HELP.STEP_4.BODY"),
     params: {
       placement: "top",
     },
@@ -37,10 +39,9 @@ const steps = [
   {
     target: "#list-sore-select",
     header: {
-      title: "List actions",
+      title: i18n.t("HELP.STEP_5.TITLE"),
     },
-    content:
-      "You can change sort, order, filter items by user or simply search posts on this list",
+    content: i18n.t("HELP.STEP_5.BODY"),
     params: {
       placement: "top",
     },
@@ -49,10 +50,9 @@ const steps = [
   {
     target: ".post_acronym",
     header: {
-      title: "Post creator",
+      title: i18n.t("HELP.STEP_6.TITLE"),
     },
-    content:
-      "If you click on this, it will show you more detailed information about the user.",
+    content: i18n.t("HELP.STEP_6.BODY"),
     params: {
       placement: "top",
     },
@@ -61,9 +61,9 @@ const steps = [
   {
     target: ".fa-heart",
     header: {
-      title: "Like toggle",
+      title: i18n.t("HELP.STEP_7.TITLE"),
     },
-    content: "You can add or remove post from your favourites.",
+    content: i18n.t("HELP.STEP_7.BODY"),
     params: {
       placement: "top",
     },
@@ -72,9 +72,9 @@ const steps = [
   {
     target: ".floating_action",
     header: {
-      title: "Language changer",
+      title: i18n.t("HELP.STEP_8.TITLE"),
     },
-    content: "You can change your preferred language here.",
+    content: i18n.t("HELP.STEP_8.BODY"),
     params: {
       placement: "bottom",
     },

@@ -15,6 +15,13 @@ export default {
       i18n,
 
       steps,
+
+      tourButtonLabels: {
+        buttonSkip: i18n.t("HELP.BUTTONS.SKIP"),
+        buttonPrevious: i18n.t("HELP.BUTTONS.PREVIOUS"),
+        buttonNext: i18n.t("HELP.BUTTONS.NEXT"),
+        buttonStop: i18n.t("HELP.BUTTONS.FINISH"),
+      },
     };
   },
 

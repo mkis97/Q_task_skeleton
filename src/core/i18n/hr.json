@@ -28,5 +28,45 @@
     "WEBSITE": "Web",
     "ADDRESS": "Adresa",
     "COMPANY": "Tvrtka"
+  },
+  "HELP": {
+    "STEP_1": {
+      "TITLE": "Dobrodosli!",
+      "BODY": "Ovo je kratki vodic kroz Jednostavnu aplikaciju!"
+    },
+    "STEP_2": {
+      "TITLE": "Pomoc",
+      "BODY": "Mozete pokrenuti ovaj vodic u svakom trenutku!"
+    },
+    "STEP_3": {
+      "TITLE": "Odjava",
+      "BODY": "Ovdje se mozete odjaviti."
+    },
+    "STEP_4": {
+      "TITLE": "Navigacija",
+      "BODY": "Klikom na ove poveznice, mozete se navigirati kroz aplikaciju."
+    },
+    "STEP_5": {
+      "TITLE": "Akcije liste",
+      "BODY": "Mozete promijeniti sortiranje, poredak, filtrirati listu po korisniku ili jednostavno pretaziti objave na ovoj listi."
+    },
+    "STEP_6": {
+      "TITLE": "Kreator objave",
+      "BODY": "Klikom na kreatora objave otvorit ce se detaljniji prikaz informacija korisnika."
+    },
+    "STEP_7": {
+      "TITLE": "Inverter",
+      "BODY": "Mozete dodati ili ukloniti objavu s liste svojih favorita."
+    },
+    "STEP_8": {
+      "TITLE": "Promjena jezika",
+      "BODY": "Ovdje mozete promijeniti jezik aplikacije."
+    },
+    "BUTTONS": {
+      "SKIP": "Preskoci",
+      "NEXT": "Dalje",
+      "PREVIOUS": "Nazad",
+      "FINISH": "Zavrsi"
+    }
   }
 }

@@ -28,5 +28,45 @@
     "WEBSITE": "Website",
     "ADDRESS": "Address",
     "COMPANY": "Company"
+  },
+  "HELP": {
+    "STEP_1": {
+      "TITLE": "Welcome!",
+      "BODY": "This is a short tour through Simple App!"
+    },
+    "STEP_2": {
+      "TITLE": "Help",
+      "BODY": "You can start this tour at any time!"
+    },
+    "STEP_3": {
+      "TITLE": "Log out",
+      "BODY": "You can log out here."
+    },
+    "STEP_4": {
+      "TITLE": "Navigation",
+      "BODY": "By clicking on this items, you can navigate through application."
+    },
+    "STEP_5": {
+      "TITLE": "List actions",
+      "BODY": "You can change sort, order, filter items by user or simply search posts on this list."
+    },
+    "STEP_6": {
+      "TITLE": "Post creator",
+      "BODY": "If you click on this, it will show you more detailed information about the user."
+    },
+    "STEP_7": {
+      "TITLE": "Like toggle",
+      "BODY": "You can add or remove post from your favourites."
+    },
+    "STEP_8": {
+      "TITLE": "Language changer",
+      "BODY": "You can change your preferred language here."
+    },
+    "BUTTONS": {
+      "SKIP": "Skip",
+      "NEXT": "Next",
+      "PREVIOUS": "Previous",
+      "FINISH": "Finish"
+    }
   }
 }
