@@ -24,6 +24,7 @@
 }
 
 .floating_action{
+  z-index: 9999;
   position: fixed;
   right: 16px;
   bottom: 16px;
