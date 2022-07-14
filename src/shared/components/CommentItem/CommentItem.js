@@ -1,5 +1,6 @@
 export default {
   name: "CommentItem",
+
   props: {
     comment: {
       type: Object,
@@ -7,6 +8,7 @@ export default {
       default: () => {},
     },
   },
+
   data() {
     return {
       expanded: false,

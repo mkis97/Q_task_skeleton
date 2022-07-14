@@ -1,6 +1,6 @@
 <template>
   <div id="user_profile_page_container">
-    <user-card></user-card>
+    <user-card />
   </div>
 </template>
 

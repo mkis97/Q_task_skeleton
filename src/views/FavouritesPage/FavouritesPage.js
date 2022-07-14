@@ -4,6 +4,8 @@ import { mapActions, mapState } from "vuex";
 import { STORE } from "@/core/types/store";
 
 export default {
+  name: "FavouritesPage",
+
   components: {
     PostItem,
   },

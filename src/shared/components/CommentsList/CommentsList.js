@@ -3,6 +3,7 @@ import { api } from "@/core/api";
 
 export default {
   name: "CommentsList",
+
   components: { CommentItem },
   props: {
     postId: {
@@ -11,11 +12,13 @@ export default {
       default: null,
     },
   },
+
   data() {
     return {
       comments: [],
     };
   },
+
   async created() {
     try {
       const res = await api.auth.getPostsComments(

@@ -6,7 +6,10 @@ import { STORE } from "@/core/types/store";
 import { LoaderIndicator } from "@/shared/components/LoaderIndicator";
 
 export default {
+  name: "SinglePostPage",
+
   components: { CommentsList, PostItem, LoaderIndicator },
+
   data() {
     return {
       post: {},

@@ -6,6 +6,7 @@ import { mapState, mapActions } from "vuex";
 
 export default {
   name: "LoginForm",
+
   components: { Button, Input },
 
   validations() {
@@ -29,6 +30,7 @@ export default {
       },
     };
   },
+
   computed: {
     ...mapState({
       allowedUsernames: (state) => state.users.users.map((i) => i.username),

@@ -38,10 +38,12 @@
   animation: growOut 200ms ease-in-out forwards;
   transform-origin: top center;
 }
+
 .grow-out-leave-active {
   animation: growIn 200ms ease-in-out forwards;
   transform-origin: top center;
 }
+
 @keyframes growOut {
   0% {
     transform: rotateX(-90deg);
@@ -50,6 +52,7 @@
     transform: rotateX(0deg);
   }
 }
+
 @keyframes growIn {
   0% {
     transform: rotateX(0deg);

@@ -3,6 +3,8 @@ import { ROUTES } from "@/core/types/routes";
 import { loadLocaleAsync } from "@/core/i18n";
 
 export default {
+  name: "LoginPage",
+
   components: { LoginForm },
 
   async created() {

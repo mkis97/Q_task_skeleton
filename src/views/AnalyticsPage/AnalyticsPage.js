@@ -21,8 +21,10 @@ ChartJS.register(
 );
 
 export default {
-  name: "BarChart",
+  name: "AnalyticsPage",
+
   components: { Bar },
+
   data() {
     return {
       loaded: false,

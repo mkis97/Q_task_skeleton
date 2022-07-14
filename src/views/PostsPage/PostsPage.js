@@ -10,6 +10,8 @@ import { STORE } from "@/core/types/store";
 import { LoaderIndicator } from "@/shared/components/LoaderIndicator";
 
 export default {
+  name: "PostsPage",
+
   components: {
     CommentsList,
     Pagination,
@@ -18,6 +20,7 @@ export default {
     PostItem,
     LoaderIndicator,
   },
+
   data() {
     return {
       isHydrated: false,
