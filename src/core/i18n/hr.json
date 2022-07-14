@@ -8,7 +8,8 @@
     "SIMPLE_APP": "Jednostavna aplikacija",
     "LOG_OUT": "Odjava",
     "FAVOURITES": "Favoriti",
-    "POSTS": "Postovi"
+    "POSTS": "Postovi",
+    "ANALYTICS": "Analitika"
   },
   "POSTS_PAGE": {
     "SORT_BY": "Poredaj po",
@@ -28,6 +29,9 @@
     "WEBSITE": "Web",
     "ADDRESS": "Adresa",
     "COMPANY": "Tvrtka"
+  },
+  "ANALYTICS": {
+    "LABEL": "Broj objava po korisniku"
   },
   "HELP": {
     "STEP_1": {

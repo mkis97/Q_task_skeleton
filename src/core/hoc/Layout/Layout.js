@@ -38,6 +38,10 @@ export default {
       return ROUTES.POSTS.NAME;
     },
 
+    analyticsNavigation() {
+      return ROUTES.ANALYTICS.NAME;
+    },
+
     isPostsPage() {
       return this.$route.name === ROUTES.POSTS.NAME;
     },

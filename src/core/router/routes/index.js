@@ -4,6 +4,7 @@ import { LoginPage } from "@/views/LoginPage";
 import { SinglePostPage } from "@/views/SinglePostPage";
 import { FavouritesPage } from "@/views/FavouritesPage";
 import { UserProfilePage } from "@/views/UserProfilePage";
+import { AnalyticsPage } from "@/views/AnalyticsPage";
 import { Layout } from "@/core/hoc/Layout";
 import { Clear } from "@/core/hoc/Clear";
 
@@ -36,6 +37,12 @@ const routes = [
     path: ROUTES.USER_PROFILE.PATH,
     name: ROUTES.USER_PROFILE.NAME,
     component: UserProfilePage,
+    meta: { layout: Layout },
+  },
+  {
+    path: ROUTES.ANALYTICS.PATH,
+    name: ROUTES.ANALYTICS.NAME,
+    component: AnalyticsPage,
     meta: { layout: Layout },
   },
 ];

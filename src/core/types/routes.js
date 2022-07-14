@@ -19,6 +19,10 @@ const ROUTES = {
     NAME: "user-profile",
     PATH: "/user-profile/:userId",
   },
+  ANALYTICS: {
+    NAME: "analytics",
+    PATH: "/analytics",
+  },
 };
 
 export { ROUTES };

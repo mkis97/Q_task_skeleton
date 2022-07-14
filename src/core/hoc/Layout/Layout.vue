@@ -15,6 +15,11 @@
           :to="{ name: favouritesNavigation }"
           >{{ $t("APP.FAVOURITES") }}</router-link
         >
+        <router-link
+          class="navigation_router"
+          :to="{ name: analyticsNavigation }"
+          >{{ $t("APP.ANALYTICS") }}</router-link
+        >
         <Button
           :value="$t('APP.LOG_OUT')"
           @clicked="logOut"
