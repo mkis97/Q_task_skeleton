@@ -1,12 +1,12 @@
 <template>
-  <div class="favourites_page_container">
+  <div id="favourites_page_container">
     <template v-if="isHydrated">
-      <div v-if="likedPosts.length" class="favourites_pages_content">
+      <div v-if="likedPosts.length" id="favourites_pages_content">
         <template v-for="post in likedPosts">
           <post-item :key="post.id" :post="post" :users-array="users" />
         </template>
       </div>
-      <div v-else class="favourites_pages_no_content">
+      <div v-else id="favourites_pages_no_content">
         <span class="font-2xl">{{ $t("POSTS_PAGE.NO_DATA") }}.</span>
       </div>
     </template>
