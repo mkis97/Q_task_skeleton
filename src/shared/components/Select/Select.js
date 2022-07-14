@@ -31,7 +31,7 @@ export default {
 
   methods: {
     getSelectedValue(event) {
-      if (event.target.value === "-") {
+      if (event.target.value === "") {
         return null;
       } else {
         return event.target.value;
@@ -39,7 +39,7 @@ export default {
     },
 
     handleInput(e) {
-      this.$emit("input", e.target.value);
+      this.$emit("input", this.getSelectedValue(e));
     },
   },
 };

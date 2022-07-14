@@ -13,7 +13,7 @@
         class="select_element"
         @input="handleInput"
       >
-        <option :value="null" v-if="!requiredValue">-</option>
+        <option :value="''" v-if="!requiredValue">-</option>
         <option v-for="option in options" :key="option.key" :value="option.id">
           {{ option.name }}
         </option>
