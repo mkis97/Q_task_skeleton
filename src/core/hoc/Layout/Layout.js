@@ -55,13 +55,7 @@ export default {
       }
     },
 
-    async openFavourites() {
-      if (this.$route.name !== ROUTES.FAVOURITES.NAME) {
-        await router.push({ name: ROUTES.FAVOURITES.NAME });
-      }
-    },
-
-    async openPosts() {
+    async openHomePage() {
       if (this.$route.name !== ROUTES.POSTS.NAME) {
         await router.push({ name: ROUTES.POSTS.NAME });
       }

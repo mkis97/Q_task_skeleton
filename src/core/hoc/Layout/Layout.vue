@@ -1,7 +1,9 @@
 <template>
   <div id="main_layout">
     <div id="app_bar">
-      <span class="font-2xl">{{ $t("APP.SIMPLE_APP") }}</span>
+      <span class="font-2xl" @click="openHomePage">{{
+        $t("APP.SIMPLE_APP")
+      }}</span>
       <div class="app_bar_actions_container">
         <router-link
           class="navigation_router"
