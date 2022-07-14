@@ -30,7 +30,7 @@ export default {
       await this.getUsers();
       this.isHydrated = true;
     } catch (e) {
-      this.$toast.error("Something went wrong");
+      this.$toast.error(this.$t("TOASTS.ERROR_OCCURRED"));
     }
   },
 

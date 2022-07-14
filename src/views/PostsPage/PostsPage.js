@@ -64,7 +64,7 @@ export default {
       await this.getUsers();
       this.isHydrated = true;
     } catch (e) {
-      this.$toast.error("Something went wrong");
+      this.$toast.error(this.$t("TOASTS.ERROR_OCCURRED"));
     }
   },
 
@@ -88,8 +88,7 @@ export default {
         const resPosts = await api.auth.getPosts(this.localParams);
         this.posts = resPosts.data;
       } catch (e) {
-        console.log(e);
-        this.$toast.error("Something went wrong");
+        this.$toast.error(this.$t("TOASTS.ERROR_OCCURRED"));
       }
     },
 

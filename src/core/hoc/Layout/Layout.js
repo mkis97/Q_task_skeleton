@@ -55,7 +55,7 @@ export default {
         localStorage.removeItem("q_login");
         await router.push({ name: ROUTES.LOGIN.NAME });
       } catch (e) {
-        console.log(e);
+        this.$toast.error(this.$t("TOASTS.ERROR_OCCURRED"));
       }
     },
 

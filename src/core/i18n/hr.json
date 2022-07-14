@@ -72,5 +72,13 @@
       "PREVIOUS": "Nazad",
       "FINISH": "Zavrsi"
     }
+  },
+  "VALIDATIONS": {
+    "REQUIRED": "Ovo polje je obavezno"
+  },
+  "TOASTS": {
+    "WELCOME": "Dobrodosli",
+    "WRONG_DATA": "Pogresni podactci za prijavu",
+    "ERROR_OCCURRED": "Nesto je poslo po krivu"
   }
 }

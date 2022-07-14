@@ -26,7 +26,7 @@ export default {
       );
       this.comments = res.data;
     } catch (e) {
-      this.$toast.error("Something went wrong");
+      this.$toast.error(this.$t("TOASTS.ERROR_OCCURRED"));
     }
   },
 };

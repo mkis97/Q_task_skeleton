@@ -72,5 +72,13 @@
       "PREVIOUS": "Previous",
       "FINISH": "Finish"
     }
+  },
+  "VALIDATIONS": {
+    "REQUIRED": "This field is required"
+  },
+  "TOASTS": {
+    "WELCOME": "Welcome",
+    "WRONG_DATA": "Wrong login data",
+    "ERROR_OCCURRED": "Something went wrong"
   }
 }

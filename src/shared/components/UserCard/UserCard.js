@@ -19,7 +19,7 @@ export default {
       // dirty hack used to properly load leaflet map because without this line, it loads partially (leaflet and webpack are not in love with each other :( )
       window.dispatchEvent(new Event("resize"));
     } catch (e) {
-      this.$toast.error("Something went wrong");
+      this.$toast.error(this.$t("TOASTS.ERROR_OCCURRED"));
     }
   },
 };

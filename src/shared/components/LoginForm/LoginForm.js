@@ -48,10 +48,10 @@ export default {
         await this.$v.$touch();
         const isValid = !this.$v.$anyError;
         this.$v.form.username.$error
-          ? (this.error.username = "This field is required")
+          ? (this.error.username = this.$t("VALIDATIONS.REQUIRED"))
           : (this.error.username = "");
         this.$v.form.password.$error
-          ? (this.error.password = "This field is required")
+          ? (this.error.password = this.$t("VALIDATIONS.REQUIRED"))
           : (this.error.password = "");
         if (!isValid) return;
         if (
@@ -59,20 +59,20 @@ export default {
           this.form.password === "12345"
         ) {
           this.$toast.open({
-            message: "Success",
+            message: this.$t("TOASTS.WELCOME"),
             type: "success",
             duration: 1500,
           });
           this.$emit("login");
         } else {
           this.$toast.open({
-            message: "Wrong login data",
+            message: this.$t("TOASTS.WRONG_DATA"),
             type: "error",
             duration: 1500,
           });
         }
       } catch (e) {
-        this.$toast.error("Something went wrong");
+        this.$toast.error(this.$t("TOASTS.ERROR_OCCURRED"));
       }
     },
   },
